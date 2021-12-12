@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="7dp">
+
+
+        <TextView
+            android:id="@+id/srN"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:text="1234"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/srN" />
+
+        <TextView
+            android:id="@+id/Countryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/flag"
+            android:text="India"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/Countrycases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="567879"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
